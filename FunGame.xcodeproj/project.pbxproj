@@ -12,6 +12,8 @@
 		E5BB4DC41D47D94B0084326E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DC21D47D94B0084326E /* Main.storyboard */; };
 		E5BB4DC61D47D94B0084326E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DC51D47D94B0084326E /* Assets.xcassets */; };
 		E5BB4DC91D47D94B0084326E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BB4DC71D47D94B0084326E /* LaunchScreen.storyboard */; };
+		E5BB4DD11D47D9730084326E /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB4DD01D47D9730084326E /* Character.swift */; };
+		E5BB4DD51D47DD1E0084326E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB4DD41D47DD1E0084326E /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E5BB4DC51D47D94B0084326E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5BB4DC81D47D94B0084326E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5BB4DCA1D47D94B0084326E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BB4DD01D47D9730084326E /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		E5BB4DD41D47DD1E0084326E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E5BB4DC51D47D94B0084326E /* Assets.xcassets */,
 				E5BB4DC71D47D94B0084326E /* LaunchScreen.storyboard */,
 				E5BB4DCA1D47D94B0084326E /* Info.plist */,
+				E5BB4DD01D47D9730084326E /* Character.swift */,
+				E5BB4DD41D47DD1E0084326E /* Player.swift */,
 			);
 			path = FunGame;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5BB4DD51D47DD1E0084326E /* Player.swift in Sources */,
+				E5BB4DD11D47D9730084326E /* Character.swift in Sources */,
 				E5BB4DC11D47D94B0084326E /* ViewController.swift in Sources */,
 				E5BB4DBF1D47D94B0084326E /* AppDelegate.swift in Sources */,
 			);
